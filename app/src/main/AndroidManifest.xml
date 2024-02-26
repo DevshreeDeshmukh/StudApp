@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".phpprog"></activity>
+        <activity android:name=".jsprog" />
+        <activity android:name=".cssprog" />
+        <activity android:name=".htmlprog" />
+        <activity android:name=".webdesignning" />
+        <activity android:name=".pytprofrag" />
+        <activity android:name=".javaprofrag" />
+        <activity android:name=".cppfrag" />
+        <activity android:name=".cpro" />
+        <activity android:name=".programmingLang" />
+        <activity android:name=".hin10" />
+        <activity android:name=".eng10th" />
+        <activity android:name=".sst10th" />
+        <activity android:name=".sci10th" />
+        <activity android:name=".knowOurApp" />
+        <activity android:name=".maths10th" />
+        <activity android:name=".tenth" />
+        <activity android:name=".hin9th" />
+        <activity android:name=".eng9th" />
+        <activity android:name=".sst9th" />
+        <activity android:name=".sci9th" />
+        <activity android:name=".maths9th" />
+        <activity android:name=".nineth" />
+        <activity android:name=".login" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

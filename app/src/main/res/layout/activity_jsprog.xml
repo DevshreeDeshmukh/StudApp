@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jsprog"
+    android:background="@color/mint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/soldier_blue"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:text="Study Materials For JavaScript"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="Javascript tutorials (tutorialspoint)"
+                    android:id="@+id/cb1"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="learn javascript (javatpoint)"
+                    android:id="@+id/cb2"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="javascript tutorials (javascripttutorials.net)"
+                    android:id="@+id/cb3"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="javascript tutorials (guru99)"
+                    android:id="@+id/cb4"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="javascript Tutorial (tutorialrepublic)"
+                    android:id="@+id/cb5"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="learn javascript (codeacademy.com)"
+                    android:id="@+id/cb6"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="Javascript Tutorials(playlist)"
+                    android:id="@+id/cb7"
+                    android:layout_marginBottom="15dp"
+                    />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="Javascript tutorial (playlist)"
+                    android:id="@+id/cb8"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/btnshape2"
+                    android:textColor="@color/mint"
+                    android:text="Javascript tutorial for beginners(playlist)"
+                    android:id="@+id/cb9"
+                    android:layout_marginBottom="15dp"
+                    />
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

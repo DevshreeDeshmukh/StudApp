@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hin9th"
+    android:background="@drawable/bg">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/host">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="Hindi Syllabus :-"
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="60dp"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Hindi Course A :-"
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <ImageView
+                                android:layout_width="264dp"
+                                android:layout_height="304dp"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginLeft="70dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="TODO"
+                                android:src="@drawable/hin9a" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="60dp"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Hindi Course B :-"
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="264dp"
+                                android:layout_height="304dp"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginLeft="70dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="TODO"
+                                android:src="@drawable/hin9b" />
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Video Playlists"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#adefd1"
+                        />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+                        android:text="1.Playlist One(Literature Course A)"
+                        android:textSize="15dp"
+                        android:onClick="vid1"
+                        android:background="@drawable/butnshape"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="90dp" />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+                        android:text="2.Playlist Two(Literature Course B)"
+                        android:textSize="15sp"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:onClick="vid2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="90dp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+                        android:text="3.Playlist Three(Grammar Course A)"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:onClick="vid3"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="90dp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#00203f"
+
+
+                        android:text="4.Playlist Fourth(Grammar Course B)"
+                        android:textSize="15dp"
+                        android:onClick="vid4"
+                        android:layout_marginLeft="90dp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NCERT Class 9th Book"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#adefd1"
+                        android:layout_marginLeft="20dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="40dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book"
+                        android:backgroundTint="#adefd1"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/sparsh9"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+                                android:text="Sparsh PDF "
+                                android:textSize="15sp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="40dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book1"
+                        android:backgroundTint="#adefd1"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/sanchayan9"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+                                android:text="Sanchayan PDF "
+                                android:textSize="15sp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="40dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book2"
+                        android:backgroundTint="#adefd1"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/kritika9"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+                                android:text="Kritika PDF "
+                                android:textSize="15sp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

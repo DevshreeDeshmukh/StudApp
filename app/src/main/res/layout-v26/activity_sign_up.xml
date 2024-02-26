@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN-UP"
+        android:textColor="#adefd1"
+        android:textSize="32sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:textColorLink="@color/black"
+            android:textSize="18sp"
+            android:drawablePadding="10dp"
+
+            android:tooltipText="Enter Your Name!" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/eadd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Username"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:inputType="textEmailAddress"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:drawablePadding="10dp"
+
+            android:textSize="18sp"
+            android:tooltipText="Enter Your Username! It Should Contain *Special Symbol, Numbers and more than 8 letters" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/epass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:inputType="textPassword"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:drawablePadding="10dp"
+
+            android:textSize="18sp"
+            android:tooltipText="Enter Your Password! It Should Contain *Special Symbol, Numbers and more than 8 letters" />
+        
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/epass3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawablePadding="10dp"
+
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:hint="Re-Enter Password"
+            android:inputType="textPassword"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:textSize="18sp"
+            android:tooltipText="Enter Your Password! It Should Contain *Special Symbol, Numbers and more than 8 letters" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/eph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawablePadding="10dp"
+
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:textSize="18sp"
+            android:tooltipText="Enter Your Phone Number!" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+            android:drawablePadding="10dp"
+
+            android:hint="Birth Date"
+            android:inputType="date"
+            android:textColor="#adefd1"
+            android:textColorHint="#adefd1"
+            android:textSize="18sp"
+            android:tooltipText="Enter Your Birth Date! Date should be in dd/mm/yy Format" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+
+    <Button
+        android:id="@+id/siup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#00203f"
+        app:backgroundTint="#adefd1"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/butnshape"/>
+
+
+       </LinearLayout>

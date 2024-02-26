@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eng10th"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/host">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="The Syllabus of English :- "
+                                android:textColor="#adefd1"                                android:textStyle="bold"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="Grammar :-"
+                                android:textColor="#adefd1"                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="1.Tenses."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="2. Modals."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="3.Subject - Verb concord."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4.Reported Speech."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="170dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4_1.Commands and requests."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="170dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4_2.Statements."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="170dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4_3.Questions."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="5.Determiners."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="First Flight Textbook :-"
+                                android:textColor="#adefd1"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="85dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="Porse :-"
+                                android:textColor="#adefd1"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="85dp"
+                                android:layout_marginRight="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="1.A Letter to God."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="2.Nelson Mandela"
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="3.Two Stories about Flyong."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4.From the Diary of Anne Frank."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="5.The Hundred Dresses-I."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="6.The Hundred Dresses-II."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="7.Glimpses of India."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="8.Mijbil the Otter."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="9.Madam Rides The Bus."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="10.The Sermon at Benares."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="11.The Proposal."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="75dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="Poetry :-"
+                                android:textColor="#adefd1"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="1.Dust of Snow."
+                                android:textColor="#adefd1"
+
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="2.Fire and Ice."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="3.A Tiger in the Zoo."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4.How to Tell Wild Animals."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="5.The Ball Poem."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="6.Amanda."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="7.Animals."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="8.The Trees."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="9.Fog."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="10.The Tale of Custard the Dragon."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="11.For Anne Gregory."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="Supplementary Reader :-"
+                                android:textColor="#adefd1"                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginRight="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="1.The Triumph of surgery."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="2.The Thief's Story."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="3.The Midnight Visitor"
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="4.A Question of Trust."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="5.Footprints without Feet."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="6.The Making Of a Scientist."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="7.The Necklace."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="8.The Hack driver."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="9.Bholi."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="140dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="10.The Book that Saved the Earth."
+                                android:textColor="#adefd1"
+                                android:textSize="20sp"/>
+
+
+                            <ImageView
+                                android:layout_width="254dp"
+                                android:layout_height="294dp"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginLeft="70dp"
+                                android:layout_marginTop="20dp"
+                                android:src="@drawable/eng9thsyll"
+                                android:contentDescription="TODO" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Video Playlists"
+                        android:textSize="20dp"
+
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:layout_marginTop="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#adefd1"
+                        />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+
+                        android:text="1.English Literature"
+                        android:textSize="15dp"
+                        android:onClick="vid1"
+                        android:background="@drawable/butnshape"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        />
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+
+                        android:text="2.English Grammar"
+                        android:textSize="15dp"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:onClick="vid2"
+                        android:layout_marginTop="5dp"
+                        />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:textColor="#00203f"
+
+                        android:text="3.Playlist Three"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp"
+                        android:onClick="vid3"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:layout_marginRight="30dp" />
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:background="@drawable/butnshape"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#00203f"
+
+
+                        android:text="4.Letter Writing For Boards"
+                        android:textSize="15dp"
+                        android:onClick="vid4"
+                        />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NCERT Class 10th Book"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#adefd1"                        android:layout_marginLeft="20dp"/>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="30dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book"
+                        android:backgroundTint="#adefd1"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/eng10txtbook"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+
+
+                                android:text="First Flight PDF "
+                                android:textSize="15sp"
+
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="30dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book1"
+                        android:backgroundTint="#adefd1"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/footprint10"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+
+
+                                android:text="Footprints PDF "
+                                android:textSize="15sp"
+
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:focusable="true"
+                        android:scrollbars="vertical"
+                        app:cardCornerRadius="40dp"
+                        app:contentPadding="6dp"
+                        android:onClick="Book2"
+                        android:backgroundTint="#adefd1"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/grammar10"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="#00203f"
+
+
+                                android:text="Grammer PDF "
+                                android:textSize="15sp"
+
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+
+
+
+
+</LinearLayout>

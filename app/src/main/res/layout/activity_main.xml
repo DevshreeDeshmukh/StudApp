@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/d2"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/pencil" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textStyle="bold"
+        android:text="'One day, all your hard work will pay off.'"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFEA00"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
